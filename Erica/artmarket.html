@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Marketplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0cd898;
+            color: rgb(1, 2, 10);
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .artwork {
+            border: 1px solid #0f0202;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+            width: calc(33% - 40px);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #739e16;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .artwork {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Art Marketplace</h1>
+</header>
+
+<div class="container">
+    <h2>Featured Artworks</h2>
+    <div class="artwork">
+        <img src="Images/art2.png" alt="Artwork 1">
+        <h3>DON'T MESS WITH ME</h3>
+        <p>Price: $100</p>
+        <button>Buy</button>
+    </div>
+    <div class="artwork">
+        <img src="Images/art1.png" alt="Artwork 2">
+        <h3>MY NATURAL HAIR</h3>
+        <p>Price: $200</p>
+        <button>Buy</button>
+    </div>
+    <div class="artwork">
+        <img src="Images/art3.png" alt="Artwork 3">
+        <h3>AFRICAN WOMEN</h3>
+        <p>Price: $150</p>
+        <button>Buy</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Art Marketplace.
+        Art Marketplace is a website purposely designed to exhibite artworks for selling and buying.
+        This website enables artist to display their full potentails in art.Making viewers more creative and inovative <div class="></div>
+    </p>
+</footer>
+
+</body>
+</html>
